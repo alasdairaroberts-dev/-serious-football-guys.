@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Jordan Love Eats at McDonald's a Lot",
-      "owner": "Colin",
+      
       "roster": {
         "QB": "Caleb Williams",
         "WR": "Justin Jefferson",
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "name": "The Sparklers",
-      "owner": "Cormac",
+ 
       "roster": {
         "QB": "Josh Allen",
         "WR": "Ja'Marr Chase",
@@ -25,7 +25,7 @@
     {
       "id": 3,
       "name": "Man, You Gotta be Fast to Play Defense",
-      "owner": "Dad Roberts",
+ 
       "roster": {
         "QB": "Justin Herbert",
         "WR": "Jaxon Smith-Njigba",
@@ -36,7 +36,7 @@
     {
       "id": 4,
       "name": "The Roadrunners",
-      "owner": "Mom Roberts",
+    
       "roster": {
         "QB": "Caleb Williams",
         "WR": "Luther Burden III",
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "name": "The Banana Crew",
-      "owner": "Elliott O'Leary",
+
       "roster": {
         "QB": "Josh Allen",
         "WR": "George Pickens",
@@ -58,7 +58,7 @@
     {
       "id": 6,
       "name": "The Wrecking Crew",
-      "owner": "Coach Daniel",
+   
       "roster": {
         "QB": "Joe Burrow",
         "WR": "Jaxon Smith-Njigba",
@@ -69,7 +69,7 @@
     {
       "id": 7,
       "name": "aMerrickan Football 1",
-      "owner": "Brennan",
+
       "roster": {
         "QB": "Josh Allen",
         "WR": "Ja'Marr Chase",
@@ -80,7 +80,7 @@
     {
       "id": 8,
       "name": "aMerrickan Football 2",
-      "owner": "Dad Merrick",
+
       "roster": {
         "QB": "Drake Maye",
         "WR": "Puka Nacua",
