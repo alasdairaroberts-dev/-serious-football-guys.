@@ -97,8 +97,8 @@ const server=http.createServer(async(req,res)=>{
     }
     let p=url.pathname==="/"?"index.html":url.pathname.slice(1);
     p=path.normalize(p).replace(/^(\.\.[/\\])+/, "");
-    const file=path.join(__dirname,"public",p);
-    if(!file.startsWith(path.join(__dirname,"public"))||!fs.existsSync(file)) return send(res,404,"Not found","text/plain");
+    const file=path.join(__dirname,p);
+    if(!file.startsWith(__dirname)||!fs.existsSync(file)) return send(res,404,"Not found","text/plain");
     const ext=path.extname(file);
     const types={".html":"text/html",".css":"text/css",".js":"text/javascript"};
     return send(res,200,fs.readFileSync(file),types[ext]||"application/octet-stream");
